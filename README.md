@@ -6,9 +6,9 @@ Write and submit a Python program that accepts a string from the user and
 prints it back in three different ways:
 
 * With all letters in reverse.
-* With words in **reverse** order, but letters within each word in the **correct** order.
 * With all words in **correct** order, but letters **reversed** *within* the words.
-* 
+* With words in **reverse** order, but letters within each word in the **correct** order.
+
 Output of your program should look like this:
 
 ```
