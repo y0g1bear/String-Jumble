@@ -27,7 +27,7 @@ about it! You don't necessarily need *any* of these techniques to solve the chal
   times the character `'a'` appears in the string: `'a string has several characters'`.
 * `zip([1,4,2],['a','z','q'])` will return an iterator for a list of tuples (another type 
   of list) like this: `[(1, 'a'), (4, 'z'), (2, 'q')]`
-* If mylist is a list like `[435, 2, 45, 2]` vthen `mylist.sort()` will *change* it 
+* If mylist is a list like `[435, 2, 45, 2]` then `mylist.sort()` will *change* it 
   to: `[2, 2, 45, 435]`
 * If mylist is a list like `[435, 2, 45, 2]` then `mylist.append(99)` will *change* 
   it to: `[435, 2, 45, 2, 99]`
