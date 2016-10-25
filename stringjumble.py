@@ -29,8 +29,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 we = input("Please enter a string of text (the bigger the better):")
 print("You entered "+ we + ". Now jumble it:")
 for i in reversed(we):
-    print(i, end = " ")
-for l in -1(we):
-    print(l, end = " ")
-    
-
+    print(i, end = "")
+we = list(we)
+print( )
+print(we)
