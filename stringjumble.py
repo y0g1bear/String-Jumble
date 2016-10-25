@@ -1,6 +1,6 @@
 """
 stringjumble.py
-Author: <your name>
+Author: john
 Credit: <sources>
 
 Assignment:
@@ -30,6 +30,9 @@ we = input("Please enter a string of text (the bigger the better):")
 print("You entered "+ we + ". Now jumble it:")
 for i in reversed(we):
     print(i, end = "")
-we = list(we)
-print( )
-print(we)
+splitwe = we.split()
+sentwe = we[::-1]
+print()
+for x in sentwe:
+    print(x, end = "")
+
