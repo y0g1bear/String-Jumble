@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: john
-Credit: <sources>
+Credit: andy
 
 Assignment:
 
@@ -31,13 +31,12 @@ print("You entered "+ we + ". Now jumble it:")
 for i in reversed(we):
     print(i, end = "")
 splitwe = we.split()
-"""
-sentwe = we[::-1]
-print()
-for x in sentwe:
-    print(x, end = "")
-"""
+
+print ("")
 splitwenew = reversed(splitwe)
-jum = []
+
 for i in splitwenew:
     print(i, end = " ")
+print()
+
+splitweii = 
