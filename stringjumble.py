@@ -40,5 +40,4 @@ for x in sentwe:
 splitwenew = reversed(splitwe)
 jum = []
 for i in splitwenew:
-    jum = jum + i + " "
-print jum
+    print(i, end = " ")
