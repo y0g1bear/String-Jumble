@@ -43,6 +43,5 @@ hi = []
 splitweii = we.split
 for e in splitweii:
     h = ""
-    for x in reversed(e):
-       h = (x, end = "")
+    h = reversed(e)
     hi.append(h)
