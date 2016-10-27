@@ -38,6 +38,7 @@ splitwenew = reversed(splitwe)
 for i in splitwenew:
     print(i, end = " ")
 print()
+
 hi = []
 
 splitweii = we.split()
@@ -45,4 +46,4 @@ for e in splitweii:
     h = ""
     h = reversed(e)
     hi.append(h)
-    print(e, end = " ")
+    print(e [::-1], end = " ")
