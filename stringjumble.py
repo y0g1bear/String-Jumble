@@ -27,7 +27,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 we = input("Please enter a string of text (the bigger the better):")
-print("You entered "+ we + ". Now jumble it:")
+print('You entered "'+ we + '". Now jumble it:')
 for i in reversed(we):
     print(i, end = "")
 splitwe = we.split()
