@@ -40,8 +40,9 @@ for i in splitwenew:
 print()
 hi = []
 
-splitweii = we.split
+splitweii = we.split()
 for e in splitweii:
     h = ""
     h = reversed(e)
     hi.append(h)
+    print(e, end = " ")
